@@ -1,0 +1,51 @@
+html, body, body > .body {
+  height: 100%;
+}
+
+body {
+  background-color: #999fa5
+}
+
+.page {
+  max-width: 1008px;
+  margin: 0 auto;
+  background: url(../images/backgrounds/application_bg.png) repeat-y scroll center top transparent;
+  background-color: white;
+}
+
+.page > div {
+  margin: 0 14px;
+}
+
+.header {
+  background: url(../images/backgrounds/header_bg_nonprod.png) repeat scroll left top #640032;
+}
+
+.header h1 a {
+  display: block;
+  height: 42px;
+  width: 221px;
+  text-indent: -9999em;
+  background: url(../images/logos/emi_music_platform.png) no-repeat;
+}
+
+.content {
+  padding: 1em;
+}
+
+body > .body {
+  margin-bottom: -1.5em;
+}
+.footer {
+  height: 1.5em;
+  background-color:black;
+  color: #999;
+}
+
+.footer p {
+  font-size: 0.75em;
+  line-height: 2em;
+  font-family: Helvetica,sans-serif;
+  text-align: right;
+  padding-right: 2em;
+}
