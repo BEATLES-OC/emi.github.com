@@ -3,5 +3,17 @@ layout: default
 title: EMI Platform Engineering
 ---
 
-The Platform Engineering group develops both internal and customer-facing applications
-to help market EMI Music's artists and products.
+<div class="content left">
+  <h2>Who We Are</h2>
+  <p class="chunk">The Platform Engineering group develops both internal and customer-facing applications
+  to help market EMI Music's artists and products.</p>
+</div>
+
+<div class="content right">
+  <h2>Bloggage</h2>
+  {% for post in site.posts limit:5 %}
+  <h3 class="chunk"><a href=".{{ post.url }}">{{ post.title }}</a></h3>
+  <p class="synopsis">{{ post.synopsis }}</p>
+  <p class="posted">Posted by {{ post.author }} on {{ post.date | date_to_long_string }}.</p>
+  {% endfor %}
+</div>
