@@ -9,7 +9,8 @@ Our products would be impossible without open source software; Merb, jQuery and 
 our technology stack, augmented with dozens of plugins, gems and assorted libraries. The breadth and
 quality of these freely shared pieces of code let us focus our efforts on the problems specific to our
 applications. So it is with some pride (and relief!) that we are publishing our first jQuery plugin,
-[Filtered List](https://github.com/emi/jid3).
+[Filtered List](http://emi.github.com/filtered_list) including an
+[example](http://emi.github.com/filtered_list).
 
 We have a couple places in our apps where we want to show a long, scrollable list of items, where
 basic information about each item is cheap to calculate but the fully populated item requires an extra
